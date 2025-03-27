@@ -6,9 +6,13 @@
   "scripts": {
     "dev": "vinxi dev",
     "build": "vinxi build",
-    "start": "vinxi start"
+    "start": "vinxi start",
+    "migrate": "prisma migrate dev",
+    "studio": "prisma studio",
+    "generate": "prisma generate"
   },
   "dependencies": {
+    "@prisma/client": "^6.5.0",
     "@tanstack/react-router": "^1.114.29",
     "@tanstack/react-start": "^1.114.29",
     "react": "^19.0.0",
@@ -19,6 +23,7 @@
     "@types/react": "^19.0.12",
     "@types/react-dom": "^19.0.4",
     "@vitejs/plugin-react": "^4.3.4",
+    "prisma": "^6.5.0",
     "typescript": "^5.8.2",
     "vite-tsconfig-paths": "^5.1.4"
   }
